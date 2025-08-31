@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP IV - Funções Biológicas | FIBRA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1>CEP IV - Funções Biológicas</h1>
+                    <p class="subtitle">Centro Universitário FIBRA</p>
+                </div>
+                <div class="anatomical-decoration">
+                    <img src="chalk_brain.png" alt="Desenho anatômico do cérebro" class="anatomy-img brain">
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="welcome-text">
+                    <h2>Bem-vindos, Estudantes de Medicina!</h2>
+                    <p>Este site foi criado especialmente para vocês acompanharem seu progresso acadêmico na disciplina de Funções Biológicas CEP IV. Aqui você encontrará suas notas, situação atual e mensagens de incentivo para continuar sua jornada médica.</p>
+                </div>
+                <div class="anatomical-decoration">
+                    <img src="chalk_heart.png" alt="Desenho anatômico do coração" class="anatomy-img heart">
+                </div>
+            </section>
+
+            <!-- Grades Table -->
+            <section class="grades-section">
+                <h3>Suas Notas e Progresso</h3>
+                <div class="table-container">
+                    <table id="gradesTable" class="grades-table">
+                        <thead>
+                            <tr>
+                                <th>Avaliação</th>
+                                <th>Nota</th>
+                                <th>Nota Final (arred.)</th>
+                                <th>Faltam para 14</th>
+                                <th>Situação</th>
+                                <th>Mensagem de Incentivo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="gradesTableBody">
+                            <!-- Data will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Summary Cards -->
+            <section class="summary-section">
+                <div class="summary-cards">
+                    <div class="summary-card approved">
+                        <h4>Status Geral</h4>
+                        <p class="status-text" id="generalStatus">Carregando...</p>
+                    </div>
+                    <div class="summary-card progress">
+                        <h4>Média Final</h4>
+                        <p class="grade-text" id="finalGrade">Carregando...</p>
+                    </div>
+                    <div class="summary-card info">
+                        <h4>Total NPC</h4>
+                        <p class="grade-text" id="totalNPC">Carregando...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Motivational Section -->
+            <section class="motivation-section">
+                <div class="motivation-content">
+                    <h3>Mensagem Especial</h3>
+                    <p class="motivation-text">
+                        "A medicina é uma profissão que exige dedicação, perseverança e muito estudo. 
+                        Cada nota, cada avaliação, cada desafio superado é um passo a mais na sua formação 
+                        como futuro médico. Continue firme em seus objetivos!"
+                    </p>
+                    <div class="anatomical-decoration">
+                        <img src="chalk_skeleton.png" alt="Desenho anatômico do esqueleto" class="anatomy-img skeleton">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Centro Universitário FIBRA - Curso de Medicina</p>
+            <p>Site desenvolvido para os estudantes de medicina da FIBRA</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
